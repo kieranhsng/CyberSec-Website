@@ -24,7 +24,7 @@ function checkPassword() {
     }
 
     else {
-        result.textContent = "This password does not match any passwords in our list.";
+        result.textContent = "This password is somewhat secure, but consider using a stronger password.";
     }
 
 }
